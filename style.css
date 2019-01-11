@@ -2,29 +2,37 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  color: white;
 }
 p{
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
 h2{
-  color: #600473;
+  color: #7F8688;
   font-weight: 400;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+}
+.resume h2{
+  color:#F3E367;
 }
 * {
   margin: 0;
   padding: 0;
 }
+.title{
+  opacity: .9;
+}
 .title a{
-  color: #600473;
+  color: #F3E367;
 }
 .intro, #about-section {
   top: 0;
   background: #f1f1f1;
   min-height: 55vh;
   padding-top: 45vh;
+  background-image: linear-gradient(#7F8688, #929D9E);
 }
 #about-section {
   padding-top: 25vh;
@@ -38,11 +46,11 @@ h2{
   height: 10em;
 }
 .intro p {
-  color: #600473;
+  color: #F3E367;
 }
 #navbar{
-  border-bottom: darkgray 1px solid;
-  background-color: #f1f1f1;
+  border-bottom: #F3E367 1px solid;
+  background-color: #7F8688;
   z-index: 1;
 }
 nav ul {
@@ -57,8 +65,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #600473;
-  opacity: 0.65;
+  color: white;
+  opacity: .9;
   text-decoration: none;
 }
 
@@ -80,13 +88,15 @@ nav ul li a:hover {
   color: darkgray;
   display: inline-block;
   overflow: hidden;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #F3E367;
+  opacity: .85;
   height: 220px;
   width: 280px;
   margin: 40px 100px;
 }
 .project:hover{
   border-color: darkgray;
+  opacity: 1;
 }
 
 .project-pic {
@@ -105,7 +115,7 @@ nav ul li a:hover {
   width: 200px;
   height: 30px;
   margin: 20px auto 90px;
-  background-color: #f1f1f1;
+  background-color: #929D9E;
   font-size: 1em;
   border: darkgray 1px solid;
   cursor: pointer;
@@ -113,14 +123,18 @@ nav ul li a:hover {
 }
 
 a.show-all, a.contact-details {
-  color: #600473;
+  color: #F3E367;
   opacity: 0.65;
   font-weight: 400em;
+  background: #929D9E;
 }
 
 .show-all:hover {
-  color: #600473;
+  color: #F3E367;
   opacity: 1;
+}
+.sub-heading {
+  color:#929D9E;
 }
 
 @media only screen and (max-width: 500px) {
@@ -162,19 +176,21 @@ a.show-all, a.contact-details {
 }
 
 .contact-details:hover {
-  color: #600473;
+  color: #F3E367;
   opacity: 1;
 }
 
 footer {
   padding: 20px;
-  background-color: #600473;
-  color: white;
+  background-color: #F3E367;
+  color: #7F8688;
   line-height: 40px;
+  border-top: 1px solid white;
 }
 
 footer a {
   color: white;
+  opacity: .8;
 }
 
 @media only screen and (max-width: 367px) {
