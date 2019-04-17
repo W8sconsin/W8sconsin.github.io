@@ -29,7 +29,8 @@ h2{
   text-shadow: 1px 1px 3px #000000;
 }
 .title a:hover{
-  color:#18181E;
+  color:black;
+  text-shadow: 1px 1px 3px #F3E367;
 }
 .intro, #about-section {
   top: 0;
@@ -77,7 +78,7 @@ nav ul li a {
 
 nav ul li a:hover {
   opacity:1;
-  color:#18181E;
+  color:#F3E367;
 }
 
 .work {
