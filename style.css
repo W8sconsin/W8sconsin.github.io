@@ -26,6 +26,7 @@ h2{
 }
 .title a{
   color: #F3E367;
+  text-shadow: 1px 1px 3px #000000;
 }
 .title a:hover{
   color:#18181E;
@@ -71,6 +72,7 @@ nav ul li a {
   color: white;
   opacity: .9;
   text-decoration: none;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 nav ul li a:hover {
@@ -129,8 +131,9 @@ nav ul li a:hover {
 a.show-all, a.contact-details {
   color: #F3E367;
   opacity: 0.65;
-  font-weight: 400em;
+  font-weight: 400;
   background: #929D9E;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 .show-all:hover {
@@ -177,6 +180,7 @@ a.show-all, a.contact-details {
   background: white;
   color: #008080;
   text-decoration: none;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 .contact-details:hover {
@@ -185,7 +189,7 @@ a.show-all, a.contact-details {
 }
 
 footer {
-  padding: 20px;
+  padding: 40px 20px;
   background-color: #F3E367;
   color: #7F8688;
   line-height: 40px;
@@ -195,6 +199,7 @@ footer {
 footer a {
   color: white;
   opacity: .8;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 @media only screen and (max-width: 367px) {
